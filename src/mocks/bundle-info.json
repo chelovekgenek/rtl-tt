@@ -1,0 +1,67 @@
+{
+  "title": "De uitschieters van 2018",
+  "label": "best gelezen",
+  "description": "Waar hadden we het dit jaar allemaal over? Je leest het in dit overzicht met de best gelezen artikelen.",
+  "image": {
+    "imageUrl": "https://www.rtlboulevard.nl/sites/default/files/content/images/2018/12/27/thumbnail_Jaaroverzicht%20Banner.jpg",
+    "crops": [
+      {
+        "type": "inline_small",
+        "height": 150,
+        "width": 200,
+        "ratio": "1.33:1",
+        "path": "https://www.rtlboulevard.nl/sites/default/files/styles/inline_small/public/content/images/2018/12/27/thumbnail_Jaaroverzicht%20Banner.jpg?itok=0HUM8OoM"
+      },
+      {
+        "type": "artikel_top",
+        "height": 395,
+        "width": 694,
+        "ratio": "1.76:1",
+        "path": "https://www.rtlboulevard.nl/sites/default/files/styles/artikel_top/public/content/images/2018/12/27/thumbnail_Jaaroverzicht%20Banner.jpg?itok=nTEsGKzj"
+      },
+      {
+        "type": "staand",
+        "height": 1024,
+        "width": 682,
+        "ratio": "0.67:1",
+        "path": "https://www.rtlboulevard.nl/sites/default/files/styles/staand/public/content/images/2018/12/27/thumbnail_Jaaroverzicht%20Banner.jpg?itok=Z2kNbfLo"
+      },
+      {
+        "type": "liggend_breed",
+        "height": 400,
+        "width": 1200,
+        "ratio": "3:1",
+        "path": "https://www.rtlboulevard.nl/sites/default/files/styles/liggend_breed/public/content/images/2018/12/27/thumbnail_Jaaroverzicht%20Banner.jpg?itok=JST6V8Kt"
+      },
+      {
+        "type": "liggend",
+        "height": 576,
+        "width": 1024,
+        "ratio": "1.78:1",
+        "path": "https://www.rtlboulevard.nl/sites/default/files/styles/liggend/public/content/images/2018/12/27/thumbnail_Jaaroverzicht%20Banner.jpg?itok=v4zvomCm"
+      },
+      {
+        "type": "liggend_breed_nieuwsopening",
+        "height": 430,
+        "width": 1024,
+        "ratio": "2.38:1",
+        "path": "https://www.rtlboulevard.nl/sites/default/files/styles/liggend_breed_nieuwsopening/public/content/images/2018/12/27/thumbnail_Jaaroverzicht%20Banner.jpg?itok=peJpxn6q"
+      },
+      {
+        "type": "square_medium",
+        "height": 400,
+        "width": 400,
+        "ratio": "1:1",
+        "path": "https://www.rtlboulevard.nl/sites/default/files/styles/square_medium/public/content/images/2018/12/27/thumbnail_Jaaroverzicht%20Banner.jpg?itok=ZscH49wU"
+      },
+      {
+        "type": "square_small",
+        "height": 300,
+        "width": 300,
+        "ratio": "1:1",
+        "path": "https://www.rtlboulevard.nl/sites/default/files/styles/square_small/public/content/images/2018/12/27/thumbnail_Jaaroverzicht%20Banner.jpg?itok=yR6VqrPN"
+      }
+    ],
+    "type": "MediaAfbeelding"
+  }
+}

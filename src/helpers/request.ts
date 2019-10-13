@@ -1,5 +1,7 @@
 import axios from "axios"
 
-export const request = axios.create({
-  baseURL: process.env.REACT_APP__API_URL,
-})
+import { setupMocks } from "./request.mock"
+
+export const request = axios.create()
+
+setupMocks(request)
