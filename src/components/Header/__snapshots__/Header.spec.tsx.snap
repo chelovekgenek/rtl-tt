@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render 1`] = `
+<styled.header>
+  <styled.img
+    alt="image"
+    src="https://www.rtlboulevard.nl/sites/default/files/content/images/2018/12/27/thumbnail_Jaaroverzicht%20Banner.jpg"
+  />
+  <styled.h2>
+    best gelezen
+  </styled.h2>
+  <styled.h1>
+    De uitschieters van 2018
+  </styled.h1>
+  <p>
+    Waar hadden we het dit jaar allemaal over? Je leest het in dit overzicht met de best gelezen artikelen.
+  </p>
+</styled.header>
+`;
+
+exports[`Header should render Spinner while fetching is true 1`] = `<Spinner />`;
+
+exports[`Header shouldn't render anything while data is not provided 1`] = `""`;

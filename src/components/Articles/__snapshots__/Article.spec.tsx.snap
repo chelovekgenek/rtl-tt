@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article should render 1`] = `
+<styled.li
+  onClick={[Function]}
+>
+  <styled.div>
+    <styled.div>
+      <styled.img
+        alt={4245471}
+        src="https://www.rtlboulevard.nl/sites/default/files/styles/square_small/public/content/images/2018/06/19/ANP-56919532.jpg?itok=lTlIv6qo"
+      />
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <styled.h3>
+      De uitschieters van 2018
+    </styled.h3>
+    <styled.h2>
+      Trijntje Oosterhuis onherkenbaar veel afgevallen
+    </styled.h2>
+    <p>
+      Onze geliefde souldiva Trijntje Oosterhuis is aanzienlijk veel kilo's verloren! De zangeres plaatst foto's op haar Instagram waar te zien is dat ze een wespentaille heeft waar de meeste vrouwen stront jaloers op zullen zijn. 
+    </p>
+  </styled.div>
+</styled.li>
+`;

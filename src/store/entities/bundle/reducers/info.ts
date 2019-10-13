@@ -5,7 +5,7 @@ import { IBundleInfo } from "../types"
 
 export interface IState {
   fetching: boolean
-  data?: IBundleInfo[]
+  data?: IBundleInfo
 }
 
 export const initialState: IState = {

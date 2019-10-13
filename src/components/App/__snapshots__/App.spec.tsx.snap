@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "colors": Object {
+        "primary": "#ff9201",
+      },
+    }
+  }
+>
+  <Provider
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+  >
+    <GlobalStyleComponent />
+    <styled.div>
+      <Connect(Header) />
+      <Connect(Articles) />
+    </styled.div>
+  </Provider>
+</ThemeProvider>
+`;

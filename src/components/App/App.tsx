@@ -1,12 +1,22 @@
 import React from "react"
 import { Provider } from "react-redux"
+import { ThemeProvider } from "styled-components"
 
-import * as Styles from "./App.styled"
+import { Header } from "components/Header"
 import { store } from "store"
 
+import * as Styles from "./App.styled"
+import theme from "./App.theme"
+import { Articles } from "components/Articles"
+
 export const App = () => (
-  <Provider store={store}>
-    <Styles.Global />
-    privet
-  </Provider>
+  <ThemeProvider theme={theme}>
+    <Provider store={store}>
+      <Styles.Global />
+      <Styles.Layout>
+        <Header />
+        <Articles />
+      </Styles.Layout>
+    </Provider>
+  </ThemeProvider>
 )

@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components"
+import styled, { createGlobalStyle } from "styled-components"
 
 export const Global = createGlobalStyle`
   body {
@@ -9,4 +9,9 @@ export const Global = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+`
+
+export const Layout = styled.div`
+  max-width: 1200px;
+  margin: 0 auto;
 `

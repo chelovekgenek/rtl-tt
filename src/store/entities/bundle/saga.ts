@@ -2,7 +2,7 @@ import { takeLatest, call, put } from "redux-saga/effects"
 import { AxiosResponse } from "axios"
 
 import { IState as IInfoState } from "./reducers/info"
-import { IState as IItemsState } from "./reducers/info"
+import { IState as IItemsState } from "./reducers/items"
 import { BundleInfoTypes, BundleItemsTypes } from "./types"
 import { BundleInfoActions, BundleItemsActions } from "./actions"
 import * as api from "./api"
@@ -12,7 +12,6 @@ export function* handleGetInfo() {
     const { data }: AxiosResponse<Required<IInfoState>["data"]> = yield call(api.getInfo)
     yield put(BundleInfoActions.success(data))
   } catch (e) {
-    console.log(e)
     yield put(BundleInfoActions.failure())
   }
 }
@@ -20,7 +19,7 @@ export function* handleGetInfo() {
 export function* handleGetItems() {
   try {
     // const pagination: ReturnType<typeof getPagination> = yield select(getPagination)
-    const { data }: AxiosResponse<Required<IItemsState>["data"]> = yield call(api.getItems)
+    const { data }: AxiosResponse<IItemsState["data"]> = yield call(api.getItems)
     // yield put(ReviewsPaginationActions.setTotal(Number(headers["x-total-count"])))
     yield put(BundleItemsActions.success(data))
   } catch (e) {

@@ -1,9 +1,28 @@
 export interface IBundleInfo {
-  titel: string
+  title: string
+  description: string
+  label: string
+  image: {
+    imageUrl: string
+  }
 }
 
+export interface IBundleCrop {
+  type: string
+  height: number
+  width: number
+  ratio: string
+  path: string
+}
 export interface IBundleItem {
+  id: string
   titel: string
+  urlAlias: string
+  labelValue: string
+  lead: string
+  afbeelding: {
+    crops: IBundleCrop[]
+  }
 }
 
 export interface IBundlePagination {
