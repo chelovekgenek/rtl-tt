@@ -1,10 +1,12 @@
 import React from "react"
+import { Provider } from "react-redux"
 
 import * as Styles from "./App.styled"
+import { store } from "store"
 
 export const App = () => (
-  <div>
+  <Provider store={store}>
     <Styles.Global />
     privet
-  </div>
+  </Provider>
 )
